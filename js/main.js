@@ -9,11 +9,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Menetapkan image dengan hardcode berdasarkan index
         let imgSrc;
         if (idx === 0) {
-          imgSrc = "images/staff_1.jpg";
+          imgSrc = "../images/staff_1.jpg";
         } else if (idx === 1) {
-          imgSrc = "images/staff_2.jpg";
+          imgSrc = "../images/staff_2.jpg";
         } else if (idx === 2) {
-          imgSrc = "images/staff_3.jpg";
+          imgSrc = "../images/staff_3.jpg";
         } else {
           imgSrc = "images/default_staff.jpg"; // fallback image
         }
